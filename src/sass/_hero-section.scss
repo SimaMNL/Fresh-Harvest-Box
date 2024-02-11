@@ -1,0 +1,115 @@
+.hero-fruits-par {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  color: var(--white-color);
+}
+
+.hero-card {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  padding: 28px 0 61px 0;
+}
+
+.hero-left-img {
+  width: 200px;
+  height: 172px;
+}
+
+.hero-left-card-parg {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-pictures {
+  border-radius: 500px;
+  width: 452px;
+  height: 702px;
+}
+
+.hero-shopnow-button {
+  width: 114px;
+  height: 114px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ae1332;
+  border-radius: 100%;
+  fill: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+
+.hero-shopnow-button:hover {
+  color: var(--lime-color);
+}
+
+.hero-card-left-list {
+  border: 1px solid #fff;
+  border-radius: 1000px;
+  padding: 12px 32px;
+  width: 125px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-left-cards {
+  border-radius: 500px;
+  width: 249px;
+  height: 387px;
+  background: var(--lime-color);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-right-card {
+  border-radius: 500px;
+  width: 249px;
+  height: 387px;
+  background: var(--yellow-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-right-img {
+  width: 162px;
+  height: 185px;
+}
