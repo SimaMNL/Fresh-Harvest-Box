@@ -1,0 +1,171 @@
+/*adaugate de mine*/
+
+body {
+  background-color: #ae1332;
+}
+
+/* Mobile */
+
+/* How it works section */
+
+@media only screen and (max-width: 375px) {
+  .how-it-work-section /* posibil sa adaugi si clasa fruicts-section */ {
+    display: block;
+  }
+
+  .fruicts-section {
+    display: block;
+  }
+
+  .how-it-work-title {
+    font-size: 28px;
+    line-height: 1;
+  }
+  .how-it-work-list-item {
+    width: 335px;
+    height: 112px;
+    padding: 20px;
+  }
+  .how-it-work-button {
+    width: 136px;
+    padding: 4px;
+    font-size: 16px;
+  }
+  .fig {
+    // width: 335px;
+    // height: 100%;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    // padding-right: 20px;
+  }
+}
+
+.mobile-only-div {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .mobile-only-div {
+    display: block;
+  }
+  .how-it-work-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Mobile-specific styles here */
+  .mobile-only {
+    display: block; /* Show this element only on mobile */
+  }
+  .desktop-only {
+    display: none; /* Hide this element on mobile */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .fruicts-list-item {
+    width: 335px;
+    height: 465px;
+    border-radius: 20px;
+  }
+}
+
+.how-it-work-container-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 375px) {
+  .how-it-work-container-list .how-it-work-image.mobile-only-div {
+    display: block; /* Display mobile-specific image */
+  }
+
+  .how-it-work-container-list .how-it-work-image.desktop-only {
+    display: none; /* Hide desktop-only image */
+  }
+}
+
+/* fruits media query */
+
+@media (max-width: 375px) {
+  .fruicts-title {
+    font-size: 20px;
+  }
+
+  .fruicts-pharagraf {
+    font-size: 14px;
+    padding: 0 20px 44px;
+  }
+  .fruits-container-mobile {
+    display: flex;
+  }
+  .fruicts-section {
+    margin: 0;
+  }
+  .how-it-works-mobile {
+    margin: none;
+  }
+}
+
+/* POATE MERGE POATE NU PULAAAAAA */
+
+@media only screen and (max-width: 375px) {
+  .how-it-work-container-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fruits-container-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*melon image*/
+
+@media only screen and (max-width: 375px) {
+  .contacts-container .melon-mobil.mobile-only {
+    display: block;
+  }
+
+  .contacts-container .fruits-image-large.desktop-only {
+    display: none;
+  }
+  .melon-mobil {
+    height: auto;
+  }
+
+  .contacts-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding: 10px;
+  }
+  .contacts-container {
+    margin: 0 auto;
+    padding-left: 23px;
+    display: flex;
+  }
+}
+
+/* SVG EMMANUEL ATTEMPT */
+
+.emmanuel-svg {
+  position: relative; /* Establishes a new stacking context */
+  width: 100%;
+  height: 100%;
+}
+
+.emmanuel-svg {
+  position: absolute; /* Position the SVG absolutely within the .fruits-content-card container */
+  bottom: 0; /* Position it at the bottom */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%); /* Adjust horizontal centering */
+  width: 195px; /* Set the width */
+  height: 38px; /* Allow the height to adjust proportionally */
+}
