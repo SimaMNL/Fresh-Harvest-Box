@@ -57,3 +57,18 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
+
+document.addEventListener('DOMContentLoaded', function () {
+  var images = document.querySelectorAll('.hero-fruit, .hero-box');
+
+  images.forEach(function (image) {
+    image.classList.add('slide-in');
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Adaugă clasa "show" pentru a aplica tranzitiile la încărcarea paginii
+  document.querySelector('.hero-transition').classList.add('show');
+  document.querySelector('.hero-left').classList.add('show');
+  document.querySelector('.hero-right').classList.add('show');
+});
