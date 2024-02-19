@@ -434,7 +434,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .modal-order {
-      background-image: url(../images/modal-girl-desk.png);
+      // background-image: url(../images/modal-girl-desk.png);
     }
   }
   @media only screen and (min-width: 768px) {
@@ -706,7 +706,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .modal-order {
-    background-image: url(../images/modal-girl-desk.png);
+    // background-image: url(../images/modal-girl-desk.png);
   }
 }
 
@@ -732,5 +732,34 @@
   .thank-img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .modal-order-img {
+    width: 155px;
+    height: 131px;
+  }
+  .modal-order-strb {
+    width: 144px;
+    height: 153px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal-order-img {
+    width: 106px;
+    height: 94px;
+  }
+  .modal-order-strb {
+    width: 88px;
+    height: 96px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal-order-strb {
+    width: 170px;
+    height: 184px;
   }
 }
