@@ -1,8 +1,8 @@
 .thank-wrapper {
   z-index: 7;
   position: fixed;
-  top: 25%;
-  left: 30%;
+  top: 20%;
+  left: 25%;
   transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
@@ -77,9 +77,7 @@
   width: 278px;
   height: 239px;
   text-align: center;
-  margin-bottom: 20px;
-  margin-left: 150px;
-  margin-right: auto;
+  margin: 0 auto;
   display: block;
 }
 
@@ -114,5 +112,34 @@
   .thank-img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .thank-wrapper {
+    top: 14%;
+    left: 6%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .thank-wrapper {
+    top: 4%;
+    left: 6%;
+  }
+
+  .thank-you-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #fff;
+    width: 310px;
+  }
+
+  .thank-img {
+    width: 207px;
+    height: 176px;
   }
 }
