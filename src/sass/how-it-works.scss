@@ -102,3 +102,15 @@
   width: 100%;
   height: 100%;
 }
+// CCAAAACACAA
+
+.how-it-work-list-item {
+  margin: 10px;
+  // overflow: hidden;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease-in-out;
+}
+
+.how-it-work-list-item:hover {
+  transform: scale(1.1);
+}

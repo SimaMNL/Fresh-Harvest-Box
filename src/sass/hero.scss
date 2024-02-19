@@ -195,6 +195,12 @@
   }
 }
 
+@media screen and (max-width: 379px) {
+  .hero-left {
+    margin: 0 auto;
+  }
+}
+
 .hero-right {
   order: 2;
   @media screen and (min-width: 768px) {
@@ -237,8 +243,8 @@
   }
   @media screen and (min-width: 1280px) {
     margin-top: 9px;
-    width: 162px;
-    height: 185px;
+    // width: 162px;
+    // height: 185px;
   }
 }
 
@@ -302,8 +308,8 @@
 
 .hero-right .hero-fruit {
   margin: 19px auto;
-  width: 162px;
-  height: 185px;
+  //   width: 162px;
+  //   height: 185px;
 }
 
 .hero-right .shadow-fruit,

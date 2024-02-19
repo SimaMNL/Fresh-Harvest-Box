@@ -179,3 +179,9 @@
   transform: translateY(-50%) rotate(0deg);
   transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
 }
+
+@media screen and (max-width: 379px) {
+  .header-mobile {
+    width: 379px;
+  }
+}
