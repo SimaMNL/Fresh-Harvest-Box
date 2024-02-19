@@ -1158,8 +1158,8 @@ ul {
 .fruicts-list-item {
   background-color: beige;
   border-radius: 20px;
-  width: 389px;
-  height: 465px;
+  max-width: 389px;
+  max-height: 465px;
 }
 
 .fruits-content-card {
@@ -1366,7 +1366,7 @@ ul {
 
 @media screen and (width <= 768px) {
   .melon-mobil {
-    display: none;
+    display: unset;
   }
 }
 
