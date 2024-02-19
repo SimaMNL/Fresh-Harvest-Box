@@ -15,16 +15,16 @@
 
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[data-thank-you-open]'),
-    closeModalBtn: document.querySelector('[data-thank-you-close]'),
-    modal: document.querySelector('[data-thank-you]'),
+    openthankBtn: document.querySelector('[data-thank-you-open]'),
+    closethankBtn: document.querySelector('[data-thank-you-close]'),
+    thank: document.querySelector('[data-thank-you]'),
   };
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+  refs.openthankBtn.addEventListener('click', togglethank);
+  refs.closethankBtn.addEventListener('click', togglethank);
 
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
+  function togglethank() {
+    refs.thank.classList.toggle('is-hidden');
   }
 })();
 
