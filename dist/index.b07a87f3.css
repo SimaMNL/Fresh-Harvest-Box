@@ -133,7 +133,6 @@ html {
 }
 
 img {
-  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -187,11 +186,16 @@ body {
   position: absolute;
 }
 
+.containers {
+  padding: 0 30px;
+}
+
 .header {
   color: #ae1332;
   z-index: 1;
   background-color: #ffffffe6;
   border: 2px solid #fff;
+  margin-bottom: 64px;
   position: sticky;
   top: -2px;
 }
@@ -1354,7 +1358,13 @@ ul {
   }
 }
 
-@media screen and (width >= 768px) {
+@media screen and (width >= 769px) {
+  .melon-mobil {
+    display: none;
+  }
+}
+
+@media screen and (width <= 768px) {
   .melon-mobil {
     display: none;
   }
