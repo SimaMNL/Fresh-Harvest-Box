@@ -1,3 +1,10 @@
+// Don't touch this
+@import '../variable/variables';
+@import '../normalize/common.scss';
+
+// Add Here
+@import './header.scss';
+@import './hero';
 @import './common';
 @import './footer';
 @import './how-it-works.scss';
@@ -5,3 +12,4 @@
 @import './contacts.scss';
 @import './order.scss';
 @import './mobile-daniel.scss';
+@import './thank.scss';
