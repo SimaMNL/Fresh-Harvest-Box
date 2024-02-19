@@ -592,6 +592,18 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 })();
 (()=>{
+    const refs = {
+        openModalBtn: document.querySelector("[data-thank-you-open]"),
+        closeModalBtn: document.querySelector("[data-thank-you-close]"),
+        modal: document.querySelector("[data-thank-you]")
+    };
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+    function toggleModal() {
+        refs.modal.classList.toggle("is-hidden");
+    }
+})();
+(()=>{
     const mobileMenu1 = document.querySelector(".menu-box");
     const openMenuBtn1 = document.querySelector(".open-menu");
     const closeMenuBtn1 = document.querySelector(".nav-menu");
